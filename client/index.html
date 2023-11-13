@@ -26,14 +26,18 @@
         <button class="btn" type="submit">Join</button>
       </form>
 
+       <!-- USERS SECTION -->
+       <section class="users-section" id="users-section">
+        <h3 id="users-count">Users online:</h3>
+        <ul id="users-online"></ul>
+      </section>
+
       <!-- MESSAGES SECTION -->
       <section class="messages-section" id="messages-section">
         <h2>Messages</h2>
 
         <!-- messages list -->
-        <ul class="messages-section__list" id="messages-list">
-         
-        </ul>
+        <ul class="messages-section__list" id="messages-list"></ul>
 
         <!-- messages form -->
         <form id="add-messages-form">
@@ -47,6 +51,9 @@
         </form>
       </section>
     </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.js"></script>
     <script src="app.js" type="module"></script>
   </body>
 </html>
+
+

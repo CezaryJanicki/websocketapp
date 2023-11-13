@@ -17,6 +17,11 @@ p {
   font-size: 0.8rem;
 }
 
+#add-messages-form {
+  position: relative;
+  margin-top: 5%;
+}
+
 .btn {
   background: #0064e7;
   border: none;
@@ -104,8 +109,25 @@ p {
   background: #3498db;
 }
 
+.message--bot .message__content {
+  background: #83eb9a;
+  color: #030a18;
+}
+
 .show {
   display: block;
+}
+
+.users-section {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  text-align: left;
+}
+
+.users-section ul {
+  list-style: none;
+  text-align: left;
 }
 
 @-webkit-keyframes fadeIn {
